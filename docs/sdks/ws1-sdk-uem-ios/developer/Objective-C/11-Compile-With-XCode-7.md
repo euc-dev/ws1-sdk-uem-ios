@@ -1,16 +1,12 @@
 ---
-#title: Workspace ONE SDK for iOS
-#summary: 
-#authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: page
+title: Compile With Xcode 7
+permalink: /sdks/ws1/ws1-sdk-uem-ios/
+hide:
+  #- navigation
+  - toc
 ---
-
-# Compile With Xcode 7  
+ 
 If you use Xcode 7 to compile your SDK application, take these steps to ensure that the application functions properly.
 
 ## Procedure  

@@ -1,16 +1,11 @@
 ---
-#title: Workspace ONE SDK for iOS
-#summary: 
-#authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: page
+title: Implementing the Beacon
+permalink: /sdks/ws1/ws1-sdk-uem-ios/
+hide:
+  #- navigation
+  - toc
 ---
-
-# Implementing the Beacon
 
 You can set up the Beacon to send device information to the Workspace ONE UEM console by specifying a time interval. Generic device information such as the device name, OS version, and compromised status is sampled. In addition, the Beacon module is used to start location services by specifying a location mode.
 

@@ -1,16 +1,11 @@
 ---
-#title: Workspace ONE SDK for iOS
-#summary: 
-#authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: page
+title: Migrate to the Latest SDK Version
+permalink: /sdks/ws1/ws1-sdk-uem-ios/
+hide:
+  #- navigation
+  - toc
 ---
-
-# Migrate to the Latest SDK Version
 
 In the latest SDK for iOS, we have updated various UI screens presented by the SDK. These pages now incorporate storyboards that require you to import the new AWKit.bundle included in the new SDK DMG. This AWKit.bundle contains the compiled storyboards required for the app to function.
 

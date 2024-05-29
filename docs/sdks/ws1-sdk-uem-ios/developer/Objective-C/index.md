@@ -1,16 +1,11 @@
 ---
-#title: Workspace ONE SDK for iOS (Objective-C)
-summary: The Workspace ONE® SDK is a set of tools allowing organizations to incorporate a host of features and functionality into their custom-built iOS applications. The Workspace ONE SDK enhances the security and functionality of those applications and in turn helps save application development time and money.
-authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: page
+title: Workspace ONE SDK for iOS (Objective-C)
+permalink: /sdks/ws1/ws1-sdk-uem-ios/
+hide:
+  #- navigation
+  - toc
 ---
-
-# VMware Workspace ONE SDK for iOS (Objective-C)
 
 The VMware Workspace ONE® SDK is a set of tools allowing organizations to incorporate a host of features and functionality into their custom-built iOS applications. The Workspace ONE SDK enhances the security and functionality of those applications and in turn helps save application development time and money.
 

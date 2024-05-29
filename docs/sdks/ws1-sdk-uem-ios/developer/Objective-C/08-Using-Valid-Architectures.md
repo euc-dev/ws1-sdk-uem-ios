@@ -1,16 +1,12 @@
 ---
-#title: Workspace ONE SDK for iOS
-#summary: 
-#authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: page
+title: Using Valid Architectures
+permalink: /sdks/ws1/ws1-sdk-uem-ios/
+hide:
+  #- navigation
+  - toc
 ---
-
-# Using Valid Architectures  
+  
 The SDK currently supports the following architectures:
    * ARMv7
    * ARMv7S

@@ -1,16 +1,11 @@
 ---
-#title: Workspace ONE SDK for iOS
-#summary: 
-#authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: page
+title: Security Considerations for OpenURL in iOS
+permalink: /sdks/ws1/ws1-sdk-uem-ios/
+hide:
+  #- navigation
+  - toc
 ---
-
-# Security Considerations for OpenURL in iOS
 
 With changes to OpenURL in iOS 13, update to the latest version of the Workspace ONE SDK for iOS (Objective-C) to mitigate possible security issues.
 

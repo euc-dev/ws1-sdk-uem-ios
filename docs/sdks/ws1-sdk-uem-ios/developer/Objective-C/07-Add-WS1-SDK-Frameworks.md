@@ -1,16 +1,12 @@
 ---
-#title: Workspace ONE SDK for iOS
-#summary: 
-#authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: page
+title: Add the Workspace ONE SDK Frameworks
+permalink: /sdks/ws1/ws1-sdk-uem-ios/
+hide:
+  #- navigation
+  - toc
 ---
 
-# Add the Workspace ONE SDK Frameworks  
 The Workspace ONE SDK frameworks are made available by running the provided AirWatch SDK.dmg file.
 
 ## Procedure  

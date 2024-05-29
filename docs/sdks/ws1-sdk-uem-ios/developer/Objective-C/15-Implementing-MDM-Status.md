@@ -1,16 +1,11 @@
 ---
-#title: Workspace ONE SDK for iOS
-#summary: 
-#authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: page
+title: Implementing MDM Status
+permalink: /sdks/ws1/ws1-sdk-uem-ios/
+hide:
+  #- navigation
+  - toc
 ---
-
-# Implementing MDM Status
 
 The MDM Status module allows an application to check certain properties and the status of some MDM properties for the device that the application lives in.
 

@@ -1,16 +1,12 @@
 ---
-#title: Workspace ONE SDK for iOS
-#summary: 
-#authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: page
+title: Miscellaneous Entries for the Info.PLIST File
+permalink: /sdks/ws1/ws1-sdk-uem-ios/
+hide:
+  #- navigation
+  - toc
 ---
-
-# Miscellaneous Entries for the Info.PLIST File  
+   
 * QR Scan - Include NSCameraUsageDescription in the application info.plist file to enable the SDK to scan QR codes with the device camera.
 Provide a description that devices prompt users to allow the application to enable this feature.
 

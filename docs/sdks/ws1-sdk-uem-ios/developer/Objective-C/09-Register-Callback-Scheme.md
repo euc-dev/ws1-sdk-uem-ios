@@ -1,16 +1,12 @@
 ---
-#title: Workspace ONE SDK for iOS
-#summary: 
-#authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: page
+title: Register Callback Scheme
+permalink: /sdks/ws1/ws1-sdk-uem-ios/
+hide:
+  #- navigation
+  - toc
 ---
-
-# Register Callback Scheme  
+ 
 To receive a callback from the Workspace ONE Intelligent Hub, the application exposes a custom scheme in the info.plist.
 
 ## Procedure

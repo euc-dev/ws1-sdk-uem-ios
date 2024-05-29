@@ -1,16 +1,12 @@
 ---
-#title: Workspace ONE SDK for iOS
-#summary: 
-#authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: page
+title: Initialize the SDK 
+permalink: /sdks/ws1/ws1-sdk-uem-ios/
+hide:
+  #- navigation
+  - toc
 ---
-
-# Initialize the SDK  
+ 
 Before you can use the SDK, you must initialize it. The AWController class is the main component responsible for initializing the SDK.
 
 In addition, it automatically handles and implements certain core SDK functionalities to improve ease of integration for developers, such as the following functions:

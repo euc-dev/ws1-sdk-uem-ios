@@ -1,16 +1,12 @@
 ---
-#title: Workspace ONE SDK for iOS
-#summary: 
-#authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: page
+title: Supported Operating Systems and Requirements for the Workspace ONE SDK for iOS (Objective-C)
+permalink: /sdks/ws1/ws1-sdk-uem-ios/
+hide:
+  #- navigation
+  - toc
 ---
 
-# Supported Operating Systems and Requirements for the Workspace ONE SDK for iOS (Objective-C)
 The Workspace ONE SDK for iOS (Objective-C) is compatible with the listed operating systems and requires the listed components.
 
 ## Supported iOS Operating Systems

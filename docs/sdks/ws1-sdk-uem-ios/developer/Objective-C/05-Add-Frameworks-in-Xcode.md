@@ -1,16 +1,12 @@
 ---
-#title: Workspace ONE SDK for iOS
-#summary: 
-#authors:
-    - 
-    - 
-date: 2024-05-27
-#hide:
-#  - navigation
-#  - toc
+layout: page
+title: Add Frameworks in Xcode
+permalink: /sdks/ws1/ws1-sdk-uem-ios/
+hide:
+  #- navigation
+  - toc
 ---
 
-# Add Frameworks in Xcode
 The SDK depends on the following frameworks to function properly. Follow the steps to add the necessary frameworks to your project.
 
 ## Procedure
