@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SDK and Application Profiles
-permalink: /sdks/ws1/ws1-sdk-uem-ios/
+permalink: /sdks/ws1/ws1-sdk-uem-ios/developer/Objective-C/
 hide:
   #- navigation
   - toc

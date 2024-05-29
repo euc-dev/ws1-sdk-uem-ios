@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Using Valid Architectures
-permalink: /sdks/ws1/ws1-sdk-uem-ios/
+permalink: /sdks/ws1/ws1-sdk-uem-ios/developer/Objective-C/
 hide:
   #- navigation
   - toc
 ---
-  
 The SDK currently supports the following architectures:
    * ARMv7
    * ARMv7S

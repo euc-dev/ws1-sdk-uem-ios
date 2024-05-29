@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Initialize the SDK 
-permalink: /sdks/ws1/ws1-sdk-uem-ios/
+permalink: /sdks/ws1/ws1-sdk-uem-ios/developer/Objective-C/
 hide:
   #- navigation
   - toc
