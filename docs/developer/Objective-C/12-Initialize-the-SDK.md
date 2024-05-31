@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Initialize the SDK 
-permalink: /sdks/ws1/ws1-sdk-uem-ios/developer/Objective-C/
+#permalink: /sdks/ws1/ws1-sdk-uem-ios/developer/Objective-C/
 hide:
   #- navigation
   - toc
@@ -46,4 +46,4 @@ This method is invoked when the device connections to a valid SSID after network
 
 ## What to do next  
 For iOS 9+, ensure that the Device Services server meets Apple's security requirements. The SDK must communicate with the Device Services server to run. The system might block communication if the server does not comply with requirements. Search the Apple Developer site for current application transport security requirements:  
-[](https://developer.apple.com/library/prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9.html#//apple_ref/doc/uid/TP40016198-SW1).
+[https://developer.apple.com/library/prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9.html#//apple_ref/doc/uid/TP40016198-SW1](https://developer.apple.com/library/prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9.html#//apple_ref/doc/uid/TP40016198-SW1).

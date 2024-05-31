@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Security Considerations for OpenURL in iOS
-permalink: /sdks/ws1/ws1-sdk-uem-ios/developer/Objective-C/
+#permalink: /sdks/ws1/ws1-sdk-uem-ios/developer/Objective-C/
 hide:
   #- navigation
   - toc
@@ -30,16 +30,17 @@ For example, if an opportunistic attacker makes an iOS user install a malicious 
 ## Security Mitigations
 
 To mitigate possible problems, perform one of the listed actions.  
-* Consider updating your Workspace ONE SDK for iOS (Objective-C) apps to use the Workspace ONE SDK for iOS (Swift).  
-The Workspace ONE SDK for iOS (Swift) does not use the OpenURL mechanism for single sign-on purposes. Instead, the first Workspace ONE SDK for iOS (Swift) app installed on the device requires the user to log in. Subsequent SDK-integrated apps that share the keychain login, do not need manual login after the first app.
+   * Consider updating your Workspace ONE SDK for iOS (Objective-C) apps to use the Workspace ONE SDK for iOS (Swift).
+   The Workspace ONE SDK for iOS (Swift) does not use the OpenURL mechanism for single sign-on purposes. Instead, the first Workspace ONE SDK for iOS (Swift) app installed on the device requires the user to log in. Subsequent SDK-integrated apps that share the keychain login, do not need manual login after the first app.
 
-* If the device is MDM enrolled, disable the menu item in the MDM profile restriction for Allow user to trust unmanaged enterprise apps. Disabling this menu item prevents malicious spoofed applications from being installed and from running on the device.
+   * If the device is MDM enrolled, disable the menu item in the MDM profile restriction for Allow user to trust unmanaged enterprise apps. Disabling this menu item prevents malicious spoofed applications from being installed and from running on the device.
   
-* If the device is MDM enrolled and supervised, disable the menu item in the MDM profile restriction for Allow installing public apps. Disabling this menu item prevents malicious public apps that are not permitted by the administrator from being installed on the device.
+   * If the device is MDM enrolled and supervised, disable the menu item in the MDM profile restriction for Allow installing public apps. Disabling this menu item prevents malicious public apps that are not permitted by the administrator from being installed on the device.
   
-* You can add a key, `RestrictCredentialsExchangeWithThirdPartyApplications`, to the custom settings payload in the default SDK settings profile assigned to the Workspace ONE Intelligent Hub for iOS. Set the value to `true`. If you do add the key, it can lead to usability degradation, so add it if you see the mentioned security gap as a serious threat.  
-This key sets the Workspace ONE Intelligent Hub to not return the credentials to any requesting SDK-integrated app. This key also sets Workspace ONE SDK for iOS (Objective-C) apps to no longer share the integrated authentication certificate credentials. Each Workspace ONE SDK for iOS (Objective-C) app refetches its own integrated authentication credentials separately.  
-Important: You must format the custom settings payload correctly. You can add keys within the brackets, but do not add any strings outside of the brackets.
+   * You can add a key, `RestrictCredentialsExchangeWithThirdPartyApplications`, to the custom settings payload in the default SDK settings profile assigned to the Workspace ONE Intelligent Hub for iOS. Set the value to `true`. If you do add the key, it can lead to usability degradation, so add it if you see the mentioned security gap as a serious threat.  
+   This key sets the Workspace ONE Intelligent Hub to not return the credentials to any requesting SDK-integrated app. This key also sets Workspace ONE SDK for iOS (Objective-C) apps to no longer share the integrated authentication certificate credentials. Each Workspace ONE SDK for iOS (Objective-C) app refetches its own integrated authentication credentials separately.  
+   **Important:** You must format the custom settings payload correctly. You can add keys within the brackets, but do not add any strings outside of the brackets.
+
 ```
 {
 "RestrictCredentialsExchangeWithThirdPartyApplications": true

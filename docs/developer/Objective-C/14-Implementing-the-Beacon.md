@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Implementing the Beacon
-permalink: /sdks/ws1/ws1-sdk-uem-ios/developer/Objective-C/
+#permalink: /sdks/ws1/ws1-sdk-uem-ios/developer/Objective-C/
 hide:
   #- navigation
   - toc
@@ -11,9 +11,9 @@ You can set up the Beacon to send device information to the Workspace ONE UEM co
 
 ## Configuration of Location
 
-To take advantage of the location functionality of the Beacon, the host application registers itself as needing location updates in the background. In the info.plist file, set the UIBackgroundModes array with a value configured as location. For information on the location functionality of the Beacon, refer to the Declaring Your App's Supported Background Tasks section in the App Programming Guide for iOS at [](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html#//apple_ref/doc/uid/TP40007072-CH4-SW1).
+To take advantage of the location functionality of the Beacon, the host application registers itself as needing location updates in the background. In the info.plist file, set the UIBackgroundModes array with a value configured as location. For information on the location functionality of the Beacon, refer to the Declaring Your App's Supported Background Tasks section in the App Programming Guide for iOS at [https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html#//apple_ref/doc/uid/TP40007072-CH4-SW1](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html#//apple_ref/doc/uid/TP40007072-CH4-SW1).
 
-Sample Code
+### Sample Code
 
 ```
   // Initialize Beacon.   Modify the values as needed. 
@@ -30,16 +30,16 @@ AWBeacon *_beacon = [[AWBeacon alloc] initWithAPNSToken:nil
   [_beacon send];
 ```
 
-* initWithAPNSToken – Determines if your application uses APNS tokens and sends tokens to the Workspace ONE UEM console. You can send this value as nil.
-* transmitInterval – Represents the frequency in which the Beacon checks in with the Workspace ONE UEM console (in seconds).
-* locationGroup – Corresponds to the organization group. If your application uses authentication, it prompts users to log in. You can send this value as nil.
-* locationMode – Uses location services for the Beacon and includes the coordinates when reporting back to the server. This method also sets up the Beacon to run in the background.
-  * AWLocationModeDisabled – Specifies no location mode.
-  * AWLocationModeStandard – Captures data using the GPS (on only GPS-enabled devices), which can consume battery power when enabled.
+  * initWithAPNSToken – Determines if your application uses APNS tokens and sends tokens to the Workspace ONE UEM console. You can send this value as nil.
+  * transmitInterval – Represents the frequency in which the Beacon checks in with the Workspace ONE UEM console (in seconds).
+  * locationGroup – Corresponds to the organization group. If your application uses authentication, it prompts users to log in. You can send this value as nil.
+  * locationMode – Uses location services for the Beacon and includes the coordinates when reporting back to the server. This method also sets up the Beacon to run in the background.
+    * AWLocationModeDisabled – Specifies no location mode.
+    * AWLocationModeStandard – Captures data using the GPS (on only GPS-enabled devices), which can consume battery power when enabled.
 
-   Note: For GPS sampling to function, ensure your application supports location tracking. For more information, see Apple's documentation at https://developer.apple.com/documentation/corelocation.
-  * AWLocationModeSignificant – Uses the significant location services from iOS and provides updates only when the device location changes at a significant level. Consider using this mode if you want to use location services.
-* distance – Determines if you are using the standard location servers and sets the threshold, in meters, of when to generate a location service notification.
+    Note: For GPS sampling to function, ensure your application supports location tracking. For more information, see Apple's documentation at https://developer.apple.com/documentation/corelocation.
+    * AWLocationModeSignificant – Uses the significant location services from iOS and provides updates only when the device location changes at a significant level. Consider using this mode if you want to use location services.
+  * distance – Determines if you are using the standard location servers and sets the threshold, in meters, of when to generate a location service notification.
 
 ## Starting and Stopping the Beacon
 
