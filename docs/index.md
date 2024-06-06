@@ -3,7 +3,7 @@ layout: page
 title: Workspace ONE SDK for iOS
 #permalink: /sdks/ws1/ws1-sdk-uem-ios/
 hide:
-  - navigation
+  #- navigation
   - toc
 ---
 
