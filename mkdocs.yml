@@ -149,23 +149,13 @@ markdown_extensions:
       permalink: true
 
 # Navigation
-# nav:
-#   - Home:
-#     - index.md
-#   - Dev Centre:
-#     - dev-centre/index.md
-# #  - Product Docs:
-# #    - product-docs/index.md
-#   - APIs:
-#     - apis/index.md
-#   - Code Samples: 
-#     - samples/index.md
-#   - PowerCLI:
-#     - powercli/index.md
-#   - SDKs: 
-#     - /sdks/index.md
-#   - Support:
-#     - support/index.md
-#   - About:
-#     - about.md
+nav:
+  - Home: index.md
+    - VMware Workspace ONE SDK for iOS (Objective-C): index.md
+    - Migrate to the Latest SDK Version: Migrate.md
+    - Supported Operating Systems and Requirements for the Workspace ONE SDK for iOS (Objective-C): Supported-OS-and-Requirements.md
+    - Security Considerations for OpenURL in iOS: Security-Considerations.md
+  - Getting Started:
+    - getting-started/getting-started.md
+
     
