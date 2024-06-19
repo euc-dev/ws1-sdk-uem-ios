@@ -22,6 +22,7 @@ In order for your custom application to use the SDK, you must first complete the
 * Configure the Server Connections
 
 The following modules enable the device management framework and allow you to configure device management features into your application:
+
 * Implement the Beacon
 * Implement the DataSampler
 
@@ -39,12 +40,14 @@ Use the SecurityPolicies and Settings pages to configure settings once and then 
 You can also use the Profiles page to configure custom settings with specific behaviors.
 
 Implementing each module into your app is a two-step process:
+
 1. Implement the functionality for the desired module within your app (in Xcode).
 2. Add the corresponding configuration to the SDK Profile (in the Workspace ONE UEM console) that gets assigned to the app.
 
 ## Using Certificates
 
 The Workspace ONE SDK allows you to provision and embed certificates into your app upon deployment. The process involves three main steps:
+
 * Configuring the certificate authority (CA) and the CA Template.
 * Creating the App Profile in the Workspace ONE UEM console.
 * Assigning the App Profile to the application in Workspace ONE UEM prior to app deployment. See Certificate Provisioning.
@@ -58,9 +61,11 @@ In the Workspace ONE UEM console, you must configure default SDK settings to ass
 Once your app is completely built, you need to upload the file into Workspace ONE UEM using the Workspace ONE UEM console. During this process, you need to assign the SDK profile you created, making the settings defined in the SDK profile available to your application. The Mobile Application Management (MAM) Guide describes how to upload an application.
 
 ## Deploy the Application
+
 The final step is to deploy your application to managed devices through the Workspace ONE UEM console. Users now have access to the application, along with all the SDK enabled features you've implemented.
 
 For more information on deploying applications to managed devices, see the Mobile Application Management (MAM) Guide.
+
 * [Migrate to the Latest SDK Version](01-Migrate.md)  
 In the latest SDK for iOS, we have updated various UI screens presented by the SDK. These pages now incorporate storyboards that require you to import the new AWKit.bundle included in the new SDK DMG. This AWKit.bundle contains the compiled storyboards required for the app to function.
 * [Supported Operating Systems and Requirements for the Workspace ONE SDK for iOS (Objective-C)](02-Supported-OS-and-Requirements.md)  

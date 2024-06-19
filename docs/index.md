@@ -29,7 +29,7 @@ By downloading, installing, or using the Software, you agree to be bound by the 
 | [VMware Workspace ONE SDK Identity Certificate Export Technical Feature Guide](technical/IdentityCertificateExport.pdf) | 259.9 KB |
 | [VMware Workspace ONE SDK URL Scheme Replacement Technical Feature Guide](technical/URLSchemeReplacement.pdf) | 483.4 KB |
 | [VMware Workspace ONE Shared Device Support Technical Feature Guide](technical/SharedDeviceSupport.pdf) | 349.0 KB |
-| [Workspace ONE SDK for iOS (Objective-C) Developer Guide](./Objective-C/index.md) |  |
+| [Workspace ONE SDK for iOS (Objective-C) Developer Guide](Objective-C/index.md) |  |
 | General |  |
 | [Mobile Application Management Technical White Paper](technical/MobileApplicationManagement.pdf) | 1.2 MB |
 | [Require Device Passcode Technical Feature Guide](technical/RequireDevicePasscode.pdf) | 449.4 KB |
