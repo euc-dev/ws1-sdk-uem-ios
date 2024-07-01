@@ -23,6 +23,12 @@ The Workspace ONE SDK for iOS is distributed through the {{ config.repo_url }} r
 
 ## Documentation and Reference
 
+A number of resources are available to assist developers in getting started and using this SDK. Developers should start with either of the following:
+
+- [Workspace ONE SDK for iOS (Objective-C) Developer Guide](Objective-C/index.md)
+- [Workspace ONE SDK for iOS Native](./Native%20iOS/index.md)
+- [Workspace ONE SDK for iOS Xamarin](./Xamarin%20iOS/index.md)
+
 | Name | Size |
 | --- | --- |
 | Development Guides |   |
@@ -32,7 +38,6 @@ The Workspace ONE SDK for iOS is distributed through the {{ config.repo_url }} r
 | [VMware Workspace ONE SDK Identity Certificate Export Technical Feature Guide](technical/IdentityCertificateExport.pdf) | 259.9 KB |
 | [VMware Workspace ONE SDK URL Scheme Replacement Technical Feature Guide](technical/URLSchemeReplacement.pdf) | 483.4 KB |
 | [VMware Workspace ONE Shared Device Support Technical Feature Guide](technical/SharedDeviceSupport.pdf) | 349.0 KB |
-| [Workspace ONE SDK for iOS (Objective-C) Developer Guide](Objective-C/index.md) |  |
 | [VMware Workspace ONE SDK for iOS (Swift) Developer Guide - latest](developer/WS1iOSDeveloperGuide.pdf) | 2.7 MB |
 | General |   |
 | [Mobile Application Management Technical White Paper](technical/MobileApplicationManagement.pdf) | 1.2 MB |
