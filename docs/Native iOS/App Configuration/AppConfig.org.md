@@ -8,17 +8,17 @@ hide:
 
 ## Overview
 
-This tutorial will walk developers through how to send dynamic configurations to an app by utilizing the native iOS managed configuration capability as prescribed by the AppConfig.org standard. The steps in this tutorial are done with the assumption that you have gone through the steps in [General Setup Tutorial](../index.md).
+This tutorial will walk developers through how to send dynamic configurations to an app by utilizing the native iOS managed configuration capability as prescribed by the AppConfig.org standard. The steps in this tutorial are done with the assumption that you have gone through the steps in [Getting Started](../index.md) tutorial.
 
 ## Requirements
 
 - Minimum Project Deployment Target iOS 8.0 or above
 - Requires managed configuration from an MDM server to enable
-- This can be implemented without an Xcode workspace, but the use of a workspace is recommended. Once you create the workspace, always open the `.xcworkspace` file instead of opening the `.xcodeproj` directly.
+- This can be implemented without an Xcode workspace, but the use of a workspace is recommended. Once you create the workspace, ***always*** open the `.xcworkspace` file instead of opening the `.xcodeproj` directly.
 
 ## Tutorial
 
-At this point in the tutorial, we assume you have already gone through the steps listed in General Setup to enroll a device in your AirWatch environment.
+At this point in the tutorial, we assume you have already gone through the steps listed in [Getting Started](../index.md) tutorial to enroll a device in your AirWatch environment.
 
 ### Implementation
 
@@ -31,7 +31,7 @@ At this point in the tutorial, we assume you have already gone through the steps
    - Swift:
      - Import the Framework:
         `import AppConfigSettingsFramework`
-     - Declare that AppDelegate implements the `ManagedAppConfigSettingsDelegate` protocol
+     - Declare that AppDelegate implements the `ManagedAppConfigSettingsDelegate` protocol:
         `class AppDelegate: UIResponder, UIApplicationDelegate, ManagedAppConfigSettingsDelegate`
      - Implement the delegate protocol method:
 
@@ -47,6 +47,7 @@ At this point in the tutorial, we assume you have already gone through the steps
         ManagedAppConfigSettings.clientInstance().delegate = self
         ManagedAppConfigSettings.clientInstance().start()
       ```
+
    - Objective-C:
      - Import the Framework in `AppDelegate.h`:
      `@import AppConfigSettingsFramework;`
@@ -59,6 +60,7 @@ At this point in the tutorial, we assume you have already gone through the steps
             NSLog(@"Received changes %@", changes);
         }
       ```
+
    - Within `application:didFinishLaunchingWithOptions:` set the delegate and call `start()`
 
     ```C
@@ -71,9 +73,9 @@ At this point in the tutorial, we assume you have already gone through the steps
 After you have written the code to receive and read the iOS managed configurations, you’ll need to deploy and managed the app using AirWatch.
 
 1. Go back to your AirWatch admin console.
-1. Edit the app you uploaded in the [General Setup Tutorial](../index.md).
-1. Click on Save & Assign and then edit the assignment you had previously created.
-1. Expand **Advanced** and then **Application Configuration**
-1. Add your configuration keys and values that you want to send to your app.
-1. Click on add at the bottom of the page when you’re done to add the assignment
-1. Now back on your enrolled mobile device, install your app from the AirWatch App Catalog and run the app to read the assigned configurations you just set.
+2. Edit the app you uploaded in the [Getting Started](../index.md) tutorial.
+3. Click on Save & Assign and then edit the assignment you had previously created.
+4. Expand **Advanced** and then **Application Configuration**
+5. Add your configuration keys and values that you want to send to your app.
+6. Click on add at the bottom of the page when you’re done to add the assignment
+7. Now back on your enrolled mobile device, install your app from the AirWatch App Catalog and run the app to read the assigned configurations you just set.

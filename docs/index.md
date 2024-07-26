@@ -8,29 +8,56 @@ hide:
 
 The Workspace ONE SDK (formerly known as AirWatch SDK) code library for Apple iOS devices can be used to enable additional app config and security capabilities that may not yet be available natively as part of the AppConfig Community. Certain use cases such as granular analytics can be provided through a deeper integration with the SDK. The Workspace ONE SDK for iOS is also a good choice in deployment scenarios where a MDM profile installation on the device is not possible.
 
-## Downloads
+## Application Integration
 
-### Agreement
+To integrate the SDK into your app, proceed as follows.
 
-Before downloading, installing or using the Omnissa Workspace ONE SDK you must:
+1. Open your app project in Xcode.
 
-- Review the Omnissa Workspace ONE Software Development Kit License Agreement. By downloading, installing, or using the Omnissa Workspace ONE SDK you agree to these license terms. If you disagree with any of the terms, then do not use the software.
-- Review the VMware Privacy Notice and the Workspace ONE UEM Privacy Disclosure.
+2. Navigate to File, Swift Packages, Add Package Dependency...
 
-### Latest Software
+    This opens the Choose Package Repository screen.
 
-The Workspace ONE SDK for iOS is distributed through the {{ config.repo_url }} repository. Follow the instructions in the guides below to integrate the latest software.
+3. Enter the address of this repository `https://github.com/euc-dev/ws1-sdk-uem-ios` and click Next.
+
+    This opens the Choose Package Options screen.
+
+4. Select the rule Branch, leave the default value for branch name, and click Next.
+
+    Xcode will resolve the package dependency, which might take some time.
+
+    When resolution finishes, an Add Package screen opens.
+
+5. Select to add the AWSDK package product to your app target and click Finish.
+
+The SDK has now been added to your application project. You can start the integration work. See the developer documentation.
+
+## Other Integration
+
+The SDK can also be integrated into products other than applications, such as frameworks and libraries. Add code like the following to your `Package.swift` file.
+
+```swift
+// swift-tools-version:5.9
+import PackageDescription
+
+let package = Package(
+    name: "YOUR_PROJECT_NAME",
+    dependencies: [
+        .package(url: "https://github.com/euc-dev/ws1-sdk-uem-ios.git", from: "24.6.0"),
+    ]
+)
+```
+
+Build your product in the usual way, for example by running the `swift` `build` command.
 
 ## Documentation and Reference
 
-A number of resources are available to assist developers in getting started and using this SDK. Developers should start with either of the following:
+A number of resources are available to assist developers in getting started and using this SDK. Developers should start with [Workspace ONE SDK for iOS Getting Started Guide](./Native%20iOS/index.md)
 
-- [Workspace ONE SDK for iOS (Objective-C) Developer Guide](Objective-C/index.md)
-- [Workspace ONE SDK for iOS Native](./Native%20iOS/index.md)
-- [Workspace ONE SDK for iOS Xamarin](./Xamarin%20iOS/index.md)
+### Additional Resources and Guides
 
 | Name | Size |
-| --- | --- |
+|--- | --- |
 | Development Guides |   |
 | [VMware Workspace ONE for iOS and iPadOS Base Integration Guide](integration/WorkspaceONE_iOS_BaseIntegration.pdf) | 3.1 MB |
 | [VMware Workspace ONE for iOS and iPadOS Integration Preparation Guide](integration/WorkspaceONE_iOS_IntegrationPreparation.pdf) | 1.7 MB |
@@ -42,3 +69,7 @@ A number of resources are available to assist developers in getting started and 
 | General |   |
 | [Mobile Application Management Technical White Paper](technical/MobileApplicationManagement.pdf) | 1.2 MB |
 | [Require Device Passcode Technical Feature Guide](technical/RequireDevicePasscode.pdf) | 449.4 KB |
+
+## Sample Apps
+
+A number of sample applications with code for integration of mobile applications with the Workspace ONE platform are provided in the [workspace-ONE-SDK-integration-samples](https://github.com/euc-releases/workspace-ONE-SDK-integration-samples) repository.

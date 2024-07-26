@@ -8,10 +8,10 @@ hide:
 
 ## Overview
 
-The steps in this tutorial are done with the assumption that you have gone through the steps in [General Setup tutorial](../index.md) as well as the SDK Setup section.
+The steps in this tutorial are done with the assumption that you have gone through the steps in [Getting Started](../index.md) tutorial as well as the SDK Setup section.
 
 !!!Important
-    You will need to download the SDK binary separately via [resources.resources.com](resources.resources.com). Please contact your AirWatch representative or support to gain access.
+    You will need to download the SDK binary separately via [resources.resources.com](https://resources.workspaceone.com). Please contact your AirWatch representative or support to gain access.
 
 ## Requirements
 
@@ -24,29 +24,29 @@ The steps in this tutorial are done with the assumption that you have gone throu
 
 ### Step 1: Integrate the AirWatch SDK
 
-Follow the instructions in the [General Setup tutorial](../index.md) to integrate the AirWatch Software Development Kit (SDK) for iOS into your application.
+Follow the instructions in the [Getting Started](../index.md) tutorial to integrate the AirWatch Software Development Kit (SDK) for iOS into your application.
 
 ### Step 2: Add Custom Settings in your SDK profile
 
 For this next part, you will need to check which profile you have assigned to your SDK app. You can do this by navigating to Apps & Books > Details View. Click Edit. Choose More > SDK. Check what profile is assigned for SDK Profile.
-![Assign SDK Profile](4eb714f1-eea9-450e-910f-72918fa69db4.png)
+   ![Assign SDK Profile](4eb714f1-eea9-450e-910f-72918fa69db4.png)
 
 ### Using the Default SDK Profile (Recommended)
 
 1. If the profile assigned is the default profile, then the policy settings can be edited by navigating to Apps & Books > All Apps & Books Settings > Apps > Settings And Policies > Settings.
-2. Enable the custom settings and add your custom settings. This is a string field and can contain XML, JSON, or plain text. You can also insert lookup values if desired. 7-defaultprofilecustomsettings
-   ![SDK Profile](0f6e3878-664c-4e51-a289-0d1e5153ceb8.png)
+2. Enable the custom settings and add your custom settings. This is a string field and can contain XML, JSON, or plain text. You can also insert lookup values if desired.
+   ![SDK Profile Custom Settings](0f6e3878-664c-4e51-a289-0d1e5153ceb8.png)
 3. Once you are done, click save to start enforcing the new policy.
 
 ### Using a custom profile
 
-1. In the *AirWatch Console, Choose Apps & Books > All Apps & Books Settings.
-2. Choose Settings and Policies > Profiles and click Add Profile to create a custom profile or edit an already existing profile currently assigned to your app.1-settings_add_profile
+1. In the AirWatch Console, Choose Apps & Books > All Apps & Books Settings.
+2. Choose Settings and Policies > Profiles and click Add Profile to create a custom profile or edit an already existing profile currently assigned to your app.
    ![Profiles](6e5a2fef-d552-42d2-9f1d-2051c98499b7.png)
 3. You will be asked to Choose SDK Profile or Application Profile. Select the SDK profile.
-4. Choose iOS and fill in the Name field on the General Tab.3-ios-general
+4. Choose iOS and fill in the Name field on the General Tab.
    ![General Settings](096c369b-212b-40b0-9285-f3f14edbd8b5.png)
-5. Click Custom Settings on the left, and add your custom settings. This is a string field and can contain XML, JSON, or plain text. You can also insert lookup values if desired. 4-ios_profile_custom_payload
+5. Click Custom Settings on the left, and add your custom settings. This is a string field and can contain XML, JSON, or plain text. You can also insert lookup values if desired.
    ![Custom Settings](46ee9319-0fa7-4794-b2b5-8ab1f8c1a47e.png)
 6. Save the Profile.
 

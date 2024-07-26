@@ -8,9 +8,12 @@ hide:
 
 ## Overview
 
-If you haven’t already, please review the [Features Available](../core-capabilities.md) and [Comparison of Technical Approaches](../index.md#technical-capabilities) sections to help determine the best technical approach (AppConfig.org, AirWatch SDK, App Wrapping) for your use case.
+If you haven’t already, please review the [Features Available](../../dev-centre/ws1/core-capabilities.md) and [Comparison of Technical Approaches](../../dev-centre/ws1/index.md#technical-capabilities) sections to help determine the best technical approach (AppConfig.org, AirWatch SDK, App Wrapping) for your use case.
 
 After you’ve been acquainted with the different options of integration with AirWatch, decide on a technical approach which best meets your use cases.
+
+!!!Note
+    Workspace ONE and Airwatch are used inter-changeably throughout this guide.
 
 ## Setting up your Test Environment
 
@@ -45,7 +48,7 @@ If you are attempting to leverage App Wrapping, there is an additional set of in
 
 If you do not plan on using the SDK or app wrapping, skip directly to the Save Your App section.
 
-### (If Using Wrapping) Configuration for App Wrapping
+### Configuration for App Wrapping
 
 This steps in this section only are only required if you are using application wrapping.
 
@@ -57,7 +60,7 @@ This steps in this section only are only required if you are using application w
 !!!Note
     In order to wrap iOS applications, you will also need to upload your app’s code signing certificate and provisioning profile.
 
-### (If Using SDK) Configuration for SDK Apps
+### Configuration for SDK Apps
 
 This steps in this section only are only required if you plan on integrating the AirWatch SDK.
 
@@ -76,4 +79,4 @@ This steps in this section only are only required if you plan on integrating the
 ### Next Steps
 
 1. If you are using AppConfig or Wrapping, skip to the features section and begin following the implementation steps for your specific use case.
-2. If you are using the SDK, first complete the AirWatch SDK Setup section under getting started to integrate the core SDK framework.
+2. If you are using the SDK, first complete the [SDK Setup](SDK%20Setup.md) section under getting started to integrate the core SDK framework.
