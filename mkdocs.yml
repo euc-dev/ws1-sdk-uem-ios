@@ -152,14 +152,14 @@ markdown_extensions:
 nav:
   - Getting Started: index.md
   - App Tunneling:
-    - App Wrapping: 'App Tunneling/App Wrapping.md'
+    - App Wrapping: 'App Tunneling/App-Wrapping.md'
     - AppConfig.org: 'App Tunneling/AppConfig.org.md'
-    - Airwatch SDK: 'App Tunneling/Airwatch SDK.md'
+    - Airwatch SDK: 'App Tunneling/Airwatch-SDK.md'
   - App Configuration:
     - AppConfig.org: 'App Configuration/AppConfig.org.md'
-    - Airwatch SDK: 'App Configuration/Airwatch SDK.md'
+    - Airwatch SDK: 'App Configuration/Airwatch-SDK.md'
   - App Passcode:
-    - App Wrapping: 'App Passcode/App Wrapping.md'
-    - Airwatch SDK: 'App Passcode/Airwatch SDK.md'
+    - App Wrapping: 'App Passcode/App-Wrapping.md'
+    - Airwatch SDK: 'App Passcode/Airwatch-SDK.md'
   - Release Notes: 'Release Notes/index.md'
     
