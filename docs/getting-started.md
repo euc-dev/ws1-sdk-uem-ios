@@ -79,4 +79,4 @@ This steps in this section only are only required if you plan on integrating the
 ### Next Steps
 
 1. If you are using AppConfig or Wrapping, skip to the features section and begin following the implementation steps for your specific use case.
-2. If you are using the SDK, first complete the [SDK Setup](SDK%20Setup.md) section under getting started to integrate the core SDK framework.
+2. If you are using the SDK, first complete the [SDK Setup](SDK-Setup.md) section under getting started to integrate the core SDK framework.

@@ -52,7 +52,7 @@ Build your product in the usual way, for example by running the `swift` `build` 
 
 ## Documentation and Reference
 
-A number of resources are available to assist developers in getting started and using this SDK. Developers should start with [Workspace ONE SDK for iOS Getting Started Guide](./Native%20iOS/index.md)
+A number of resources are available to assist developers in getting started and using this SDK. Developers should start with [Workspace ONE SDK for iOS Getting Started Guide](getting-started.md)
 
 ### Additional Resources and Guides
 

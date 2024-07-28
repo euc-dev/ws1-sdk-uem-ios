@@ -64,7 +64,7 @@ The AirWatch SDK depends on the following frameworks to function properly. Pleas
     - UIKit.framework
 
 !!!Note
-    When adding libraries, instead of filenames ending in .dylib, you may see filenames ending in .tbd, such as `libc++.tbd`. If you see files with the .tbd extension, select them; they are text-based wrappers that point to the corresponding .dylib files, and they will appear in your list of selected libraries with the .dylib extension. If you have difficulties, please see [this thread](https://forums.developer.apple.com/message/8609) on the Apple Developer Forums.
+    When adding libraries, instead of filenames ending in `.dylib`, you may see filenames ending in `.tbd`, such as `libc++.tbd`. If you see files with the `.tbd` extension, select them; they are text-based wrappers that point to the corresponding `.dylib` files, and they will appear in your list of selected libraries with the `.dylib` extension. If you have difficulties, please see [this thread](https://forums.developer.apple.com/message/8609) on the Apple Developer Forums.
 
 ### Adding Required Xcode Bundle Resources
 
