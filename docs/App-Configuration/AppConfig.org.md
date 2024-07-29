@@ -8,7 +8,7 @@ hide:
 
 ## Overview
 
-This tutorial will walk developers through how to send dynamic configurations to an app by utilizing the native iOS managed configuration capability as prescribed by the AppConfig.org standard. The steps in this tutorial are done with the assumption that you have gone through the steps in [Getting Started](../index.md) tutorial.
+This tutorial will walk developers through how to send dynamic configurations to an app by utilizing the native iOS managed configuration capability as prescribed by the AppConfig.org standard. The steps in this tutorial are done with the assumption that you have gone through the steps in [Getting Started](../getting-started.md) tutorial.
 
 ## Requirements
 

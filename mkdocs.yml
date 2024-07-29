@@ -151,9 +151,10 @@ markdown_extensions:
 # Navigation
 nav:
   - index.md
-  - Getting Started: index.md
+  - Getting Started: getting-started.md
+  - Airwatch SDK Setup: SDK-Setup.md
   - App Tunneling:
-- App Wrapping: 'App-Tunneling/App-Wrapping.md'
+    - App Wrapping: 'App-Tunneling/App-Wrapping.md'
     - AppConfig.org: 'App-Tunneling/AppConfig.org.md'
     - Airwatch SDK: 'App-Tunneling/Airwatch-SDK.md'
   - App Configuration:

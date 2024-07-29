@@ -8,7 +8,7 @@ hide:
 
 ## Overview
 
-The steps in this tutorial are done with the assumption that you have gone through the steps in [Getting Started](../index.md) tutorial as well as the SDK Setup section.
+The steps in this tutorial are done with the assumption that you have gone through the steps in [Getting Started](../getting-started.md) tutorial as well as the SDK Setup section.
 
 !!!Important
     You will need to download the SDK binary separately via [resources.resources.com](resources.resources.com). Please contact your AirWatch representative or support to gain access.

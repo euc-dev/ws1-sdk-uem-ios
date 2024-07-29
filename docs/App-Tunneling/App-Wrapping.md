@@ -8,7 +8,7 @@ hide:
 
 ## Overview
 
-The steps in this tutorial are done with the assumption that you have gone through the steps in [Getting Started](../index.md) tutorial including the wrapping subsection.
+The steps in this tutorial are done with the assumption that you have gone through the steps in [Getting Started](../getting-started.md) tutorial including the wrapping subsection.
 
 ## Requirements
 
