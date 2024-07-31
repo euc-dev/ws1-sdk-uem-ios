@@ -45,7 +45,7 @@ Log into the AirWatch Console and identify if the SDK profile you assigned to yo
 1. The SDK automatically handles the presentation / dismissal of the passcode view controllers as long as you call start on the AWController clientInstance and have configured a passcode policy mentioned in the earlier steps.
 2. There are 3 AWSDKDelegate callbacks relevant to the passcode you will need to listen to: `lock`, `unlock`, and `wipe`.
 
- ```C
+ ```Swift
  - (void) lock {
      NSLog(@"Entering [SampleAWSDKDelegate lock]");
      [self.appDelegate showGuardScreen];
