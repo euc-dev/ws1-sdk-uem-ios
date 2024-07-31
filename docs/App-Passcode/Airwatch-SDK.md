@@ -46,19 +46,19 @@ Log into the AirWatch Console and identify if the SDK profile you assigned to yo
 2. There are 3 AWSDKDelegate callbacks relevant to the passcode you will need to listen to: `lock`, `unlock`, and `wipe`.
 
  ```Swift
- - (void) lock {
-     NSLog(@"Entering [SampleAWSDKDelegate lock]");
-     [self.appDelegate showGuardScreen];
- }
+    - (void) lock {
+        NSLog(@"Entering [SampleAWSDKDelegate lock]");
+        [self.appDelegate showGuardScreen];
+    }
 
- - (void) unlock {
-     NSLog(@"Entering [SampleAWSDKDelegate unlock]");
-     [self.appDelegate hideGuardScreen];
- }
+    - (void) unlock {
+        NSLog(@"Entering [SampleAWSDKDelegate unlock]");
+        [self.appDelegate hideGuardScreen];
+    }
 
- - (void) wipe {
-     //Add logic here to clear your corporate data
- }
+    - (void) wipe {
+        //Add logic here to clear your corporate data
+    }
 ```
 
 3. Your application should implement these methods to pause any processing while locked or delete any databases or other resources used by your app in case of a wipe. Note that the AirWatch SDK will only wipe the data present and used by the SDK when it receives a “wipe” instruction. The application developer must implement the necessary local app wipe logic.
