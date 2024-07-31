@@ -18,7 +18,7 @@ This tutorial will walk developers through how to send dynamic configurations to
 
 ## Tutorial
 
-At this point in the tutorial, we assume you have already gone through the steps listed in [Getting Started](../index.md) tutorial to enroll a device in your AirWatch environment.
+At this point in the tutorial, we assume you have already gone through the steps listed in [Getting Started](../getting-started.md) tutorial to enroll a device in your AirWatch environment.
 
 ### Implementation
 
@@ -73,7 +73,7 @@ At this point in the tutorial, we assume you have already gone through the steps
 After you have written the code to receive and read the iOS managed configurations, you’ll need to deploy and managed the app using AirWatch.
 
 1. Go back to your AirWatch admin console.
-2. Edit the app you uploaded in the [Getting Started](../index.md) tutorial.
+2. Edit the app you uploaded in the [Getting Started](../getting-started.md) tutorial.
 3. Click on Save & Assign and then edit the assignment you had previously created.
 4. Expand **Advanced** and then **Application Configuration**
 5. Add your configuration keys and values that you want to send to your app.

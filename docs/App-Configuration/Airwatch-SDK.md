@@ -24,7 +24,7 @@ The steps in this tutorial are done with the assumption that you have gone throu
 
 ### Step 1: Integrate the AirWatch SDK
 
-Follow the instructions in the [Getting Started](../index.md) tutorial to integrate the AirWatch Software Development Kit (SDK) for iOS into your application.
+Follow the instructions in the [Getting Started](../getting-started.md) tutorial to integrate the AirWatch Software Development Kit (SDK) for iOS into your application.
 
 ### Step 2: Add Custom Settings in your SDK profile
 

@@ -10,7 +10,7 @@ hide:
 
 The steps in this tutorial are NOT required if you are using App Wrapping or using only approaches from AppConfig.org. This tutorial will walk developers through how to setup the core SDK framework for those who have chosen the SDK approach.
 
-Before moving forward to the SDK setup tutorial, ensure you have completed the instructions in the [Getting Started](index.md) tutorial and uploaded your app with an assigned SDK profile.
+Before moving forward to the SDK setup tutorial, ensure you have completed the instructions in the [Getting Started](getting-started.md) tutorial and uploaded your app with an assigned SDK profile.
 
 !!!Important
     You will need to download the SDK binary separately via [resources.workspaceone.com](https://resources.workspaceone.com/). Please contact your AirWatch representative or support to gain access.
@@ -112,6 +112,7 @@ In order to receive a callback from the Workspace ONE Agent, your application wi
 4. Ensure that the Item 0 entry of the URL Types array is a Dictionary. In that dictionary, create a new String entry named URL identifier and set its name to a unique value that identifies this URL scheme. Apple recommends that the name be based on the package name of your application, e.g. `com.airwatch.SampleIntegrationApp.awsdksampleapp`.
 5. In the same dictionary, create a new Array entry named URL Schemes.
 6. Set the next Item 0 under URL Schemes to the desired callback scheme. Choose a value that begins with a letter and contains only letters, digits, or the characters `+`, `-`, and `.`. Workspace ONE Agent will read this value and use to construct the URLs it uses to communicate with your app.
+
 When you are finished, the Info.plist editor will look something like this:
 ![Sample Integration info.plist](a9dbd943-dc9f-454c-8c39-ea5ef185bfbe.png)
 

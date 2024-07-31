@@ -37,10 +37,12 @@ Before you can start to test or debug using AppConfig, AirWatch SDK, or App Wrap
 
 ### Adding a Local File
 
-1. Navigate to Apps & Books > Applications > List View > Internal and select Add Application. 
+1. Navigate to Apps & Books > Applications > List View > Internal and select Add Application.
 ![Add Application](./d4c93f04-1c50-4e76-b962-01a6148bdbba.png)
+
 2. Select Upload and  Local File to browse for the application file on your system.
 3. Select Continue and configure the Details tab options. Not every option is supported for every platform.
+   
    For fulls details on the different options in this tab, see our Mobile Application Management (MAM) Guide  
 ![App Details](ce3028da-52aa-4289-898c-4b2ea44e90d8.png)
 
@@ -54,6 +56,7 @@ This steps in this section only are only required if you are using application w
 
 1. You must enable App Wrapping during the upload and setup of your mobile app. Go to More > App Wrapping and click on Enable App Wrapping.
 ![App Wrapping](./6523fd5c-52e0-4717-ace5-45cc977e562a.png)
+
 2. After enabling wrapping, you can then create and set the app wrapping profile on the same screen shown above. There are two choices for setting an app wrapping profile, you can use the default settings profile or you can create an Ad-Hoc custom profile, select the default settings for now.
 3. Move to the Save Your App section.
 
@@ -66,6 +69,7 @@ This steps in this section only are only required if you plan on integrating the
 
 1. You must enable SDK during the upload and setup of your mobile app. Go to More > SDK.  sdk
 ![Enable SDK](./6c52f9c9-b1fc-49a2-9e09-1034d24159a7.png)
+
 2. Set the SDK profile to the default settings for now. (You can change it later if you need custom created profiles)
 3. Leave the Application Profile empty.
 4. Move to the Save Your App section.
