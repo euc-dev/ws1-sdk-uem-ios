@@ -18,7 +18,7 @@ To integrate the SDK into your app, proceed as follows.
 
     This opens the Choose Package Repository screen.
 
-3. Enter the address of this repository `https://github.com/euc-dev/ws1-sdk-uem-ios` and click Next.
+3. Enter the address of this repository `https://github.com/euc-oss/iOS-WorkspaceONE-SDK` and click Next.
 
     This opens the Choose Package Options screen.
 
@@ -43,7 +43,7 @@ import PackageDescription
 let package = Package(
     name: "YOUR_PROJECT_NAME",
     dependencies: [
-        .package(url: "https://github.com/euc-dev/ws1-sdk-uem-ios.git", from: "24.6.0"),
+        .package(url: "https://github.com/euc-oss/iOS-WorkspaceONE-SDK.git", from: "24.6.0"),
     ]
 )
 ```
