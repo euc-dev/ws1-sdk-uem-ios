@@ -18,7 +18,7 @@ To integrate the SDK into your app, proceed as follows.
 
     This opens the Choose Package Repository screen.
 
-3. Enter the address of this repository `https://github.com/euc-oss/iOS-WorkspaceONE-SDK` and click Next.
+3. Enter the address of this repository `https://github.com/euc-releases/iOS-WorkspaceONE-SDK` and click Next.
 
     This opens the Choose Package Options screen.
 
@@ -43,7 +43,7 @@ import PackageDescription
 let package = Package(
     name: "YOUR_PROJECT_NAME",
     dependencies: [
-        .package(url: "https://github.com/euc-oss/iOS-WorkspaceONE-SDK.git", from: "24.6.0"),
+        .package(url: "https://github.com/euc-releases/iOS-WorkspaceONE-SDK.git", from: "24.6.0"),
     ]
 )
 ```
@@ -59,16 +59,18 @@ A number of resources are available to assist developers in getting started and 
 | Name | Size |
 |--- | --- |
 | Development Guides |   |
-| [VMware Workspace ONE for iOS and iPadOS Base Integration Guide](integration/WorkspaceONE_iOS_BaseIntegration.pdf) | 3.1 MB |
-| [VMware Workspace ONE for iOS and iPadOS Integration Preparation Guide](integration/WorkspaceONE_iOS_IntegrationPreparation.pdf) | 1.7 MB |
-| [VMware Workspace ONE Inactivity Wipe Technical Feature Guide](technical/InactivityWipe.pdf) | 549.8 KB |
-| [VMware Workspace ONE SDK Identity Certificate Export Technical Feature Guide](technical/IdentityCertificateExport.pdf) | 259.9 KB |
-| [VMware Workspace ONE SDK URL Scheme Replacement Technical Feature Guide](technical/URLSchemeReplacement.pdf) | 483.4 KB |
-| [VMware Workspace ONE Shared Device Support Technical Feature Guide](technical/SharedDeviceSupport.pdf) | 349.0 KB |
-| [VMware Workspace ONE SDK for iOS (Swift) Developer Guide - latest](developer/WS1iOSDeveloperGuide.pdf) | 2.7 MB |
+| [Workspace ONE for iOS and iPadOS Base Integration Guide](integration/WorkspaceONE_iOS_BaseIntegration.pdf) | 3.1 MB |
+| [Workspace ONE for iOS and iPadOS Integration Preparation Guide](integration/WorkspaceONE_iOS_IntegrationPreparation.pdf) | 1.7 MB |
+| [Workspace ONE Inactivity Wipe Technical Feature Guide](technical/InactivityWipe.pdf) | 549.8 KB |
+| [Workspace ONE SDK Identity Certificate Export Technical Feature Guide](technical/IdentityCertificateExport.pdf) | 259.9 KB |
+| [Workspace ONE SDK URL Scheme Replacement Technical Feature Guide](technical/URLSchemeReplacement.pdf) | 483.4 KB |
+| [Workspace ONE Shared Device Support Technical Feature Guide](technical/SharedDeviceSupport.pdf) | 349.0 KB |
+| [Workspace ONE SDK for iOS (Swift) Developer Guide - latest](developer/WS1iOSDeveloperGuide.pdf) | 2.7 MB |
 | General |   |
 | [Mobile Application Management Technical White Paper](technical/MobileApplicationManagement.pdf) | 1.2 MB |
 | [Require Device Passcode Technical Feature Guide](technical/RequireDevicePasscode.pdf) | 449.4 KB |
+| Miscellaneous |   |
+| [Workspace ONE Software Development Kit License Agreement](https://www.omnissa.com/general-terms/)
 
 ## Sample Apps
 
