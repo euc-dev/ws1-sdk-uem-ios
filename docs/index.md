@@ -8,6 +8,12 @@ hide:
 
 The Workspace ONE SDK (formerly known as AirWatch SDK) code library for Apple iOS devices can be used to enable additional app config and security capabilities that may not yet be available natively as part of the AppConfig Community. Certain use cases such as granular analytics can be provided through a deeper integration with the SDK. The Workspace ONE SDK for iOS is also a good choice in deployment scenarios where a MDM profile installation on the device is not possible.
 
+## Omnissa Software Development Kit (SDK) License Agreement
+
+Omnissa provides this Software Development Kit (the “Software”) to you subject to the following terms and conditions. By downloading, installing, or using the Software, you agree to be bound by the terms of [SDK License Agreement](https://static.omnissa.com/sites/default/files/omnissa-sdk-agreement.pdf). If you disagree with any of the terms, then do not use the Software.
+
+For additional information, please visit the [Omnissa Legal Center](https://www.omnissa.com/legal-center/).
+
 ## Application Integration
 
 To integrate the SDK into your app, proceed as follows.
