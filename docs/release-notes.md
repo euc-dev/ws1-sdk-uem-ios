@@ -25,8 +25,8 @@ Workspace ONE SDK for iOS Release Notes describe the new features and enhancemen
 - Workspace ONE UEM Console 2302 +
 - XCode 15.0.1+
 
-!!!Note
-    Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace one portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
+**Note**
+    Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace ONE portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
 
 ## Workspace ONE SDK 24.07 for iOS - September 2024
 
@@ -41,8 +41,8 @@ Workspace ONE SDK for iOS Release Notes describe the new features and enhancemen
 - Workspace ONE UEM Console 2212 +
 - XCode 15.0.1+
 
-!!!Note
-    Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace one portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
+**Note**
+    Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace ONE portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
 
 ## Workspace ONE SDK 24.06 for iOS - July 2024
 
@@ -62,8 +62,8 @@ Workspace ONE SDK for iOS Release Notes describe the new features and enhancemen
 - Workspace ONE UEM Console 2212 +
 - XCode 15.0.1+
 
-!!!Note
-    Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace one portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
+**Note**
+    Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace ONE portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
 
 ## Workspace ONE SDK 24.04 for iOS - May 2024
 
@@ -77,8 +77,8 @@ Workspace ONE SDK for iOS Release Notes describe the new features and enhancemen
 - Workspace ONE UEM Console 2212 +
 - XCode 15.0.1+
 
-!!!Note
-    Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace one portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
+**Note**
+    Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace ONE portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
 
 ## Workspace ONE SDK 24.01 for iOS - January 2024
 
@@ -95,8 +95,8 @@ Minimum requirements for the Workspace ONE SDK 24.01 for iOS
 - Workspace ONE UEM console 2206 or later
 - Xcode 14.3 or later
 
-!!!Note
-    Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace one portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
+**Note**
+    Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace ONE portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
 
 ### Resolved Issues
 
@@ -121,8 +121,8 @@ Minimum requirements for the Workspace ONE SDK 23.12 for iOS
 - Workspace ONE UEM Console 2206 or later
 - Xcode 14.0.1 or later
 
-!!!Note
-    Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace one portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
+**Note**
+    Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace ONE portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
 
 ### Resolved Issues
 
