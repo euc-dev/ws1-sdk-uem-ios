@@ -8,7 +8,7 @@ hide:
 
 ## Overview
 
-If you haven’t already, please review the [Features Available](../../dev-centre/ws1/core-capabilities.md) and [Comparison of Technical Approaches](../../dev-centre/ws1/index.md#technical-capabilities) sections to help determine the best technical approach (AppConfig.org, AirWatch SDK, App Wrapping) for your use case.
+If you haven’t already, please review the [Features Available](/dev-centre/ws1/core-capabilities/) and [Comparison of Technical Approaches](/dev-centre/ws1/#technical-capabilities) sections to help determine the best technical approach (AppConfig.org, AirWatch SDK, App Wrapping) for your use case.
 
 After you’ve been acquainted with the different options of integration with AirWatch, decide on a technical approach which best meets your use cases.
 
