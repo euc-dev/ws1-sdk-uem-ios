@@ -6,11 +6,32 @@ hide:
   #- toc
 ---
 
-Updated on 05/21/2024
+Updated on 12/13/2024
 
 ## What's in the Release Notes
 
 Workspace ONE SDK for iOS Release Notes describe the new features and enhancements in each release. This page contains a summary of the new capabilities, issues that have been resolved, and known issues that have been reported in each release.  The Workspace ONE SDK for iOS is a set of tools that incorporates Workspace ONE UEM functionality into custom-built, iOS applications.
+
+## Workspace ONE SDK 24.11 for iOS - Dec 2024
+
+### New Features
+- **Branding update**
+    - SDK supports a new logo and splash screens as part of our transition to Omnissa.
+    - For the image provided to SDK in the plist, applications should ensure the size of the image is same as the image size in launch screen. This would ensure, launch screen and SDK's loading / blocker screens look similar
+
+- Support for POST requests for SCEP.
+- Bug fixes and Stability improvements. 
+- Third party library updates.
+
+### Minimum Requirements
+
+- iOS & iPadOS 15+  
+- Workspace ONE UEM Console 2306 +
+- XCode 15.0.1+
+
+
+**Note**
+    - Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace ONE portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
 
 ## Workspace ONE SDK 24.09 for iOS - October 2024
 
