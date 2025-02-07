@@ -31,7 +31,7 @@ Workspace ONE SDK for iOS Release Notes describe the new features and enhancemen
 
 
 **Note**
-    - Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace ONE portal. It will only be distributed as a Swift package and will be available through the following URL https://github.com/euc-releases/iOS-WorkspaceONE-SDK.
+    Starting February 2024 (or release 24.2), Workspace ONE SDK for iOS will not be distributed through the My Workspace ONE portal. It will only be distributed as a Swift package and will be available through [Workspace ONE SDK for iOS repo releases](https://github.com/euc-releases/iOS-WorkspaceONE-SDK/releases).
 
 ## Workspace ONE SDK 24.09 for iOS - October 2024
 
