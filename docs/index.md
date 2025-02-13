@@ -76,7 +76,6 @@ A number of resources are available to assist developers in getting started and 
 | [Workspace ONE Shared Device Support Technical Feature Guide](technical/SharedDeviceSupport.pdf) | 349.0 KB |
 | [Workspace ONE SDK for iOS (Swift) Developer Guide - latest](developer/WS1iOSDeveloperGuide.pdf) | 2.7 MB |
 | General |   |
-| [Mobile Application Management Technical White Paper](technical/MobileApplicationManagement.pdf) | 1.2 MB |
 | [Require Device Passcode Technical Feature Guide](technical/RequireDevicePasscode.pdf) | 449.4 KB |
 | Miscellaneous |   |
 | [Workspace ONE Software Development Kit License Agreement](https://www.omnissa.com/general-terms/)
