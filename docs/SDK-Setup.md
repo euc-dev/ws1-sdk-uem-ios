@@ -13,7 +13,7 @@ The steps in this tutorial are NOT required if you are using App Wrapping or usi
 Before moving forward to the SDK setup tutorial, ensure you have completed the instructions in the [Getting Started](getting-started.md) tutorial and uploaded your app with an assigned SDK profile.
 
 !!!Important
-    Workspace ONE SDK for iOS is distributed as a Swift package and is be available in the [Workspace ONE software development kit (SDK) for iOS repository](https://github.com/orgs/euc-dev/packages/container/package/ws1-sdk-uem-ios).
+    Workspace ONE SDK for iOS is distributed as a Swift package and is be available in the [Workspace ONE software development kit (SDK) for iOS repository](https://github.com/euc-releases/iOS-WorkspaceONE-SDK/releases).
 
 ## Requirements
 
