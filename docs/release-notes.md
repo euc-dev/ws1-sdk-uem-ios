@@ -12,6 +12,23 @@ Updated on 12/13/2024
 
 Workspace ONE SDK for iOS Release Notes describe the new features and enhancements in each release. This page contains a summary of the new capabilities, issues that have been resolved, and known issues that have been reported in each release.  The Workspace ONE SDK for iOS is a set of tools that incorporates Workspace ONE UEM functionality into custom-built, iOS applications.
 
+## Workspace ONE SDK 25.02 for iOS - Feb 2024
+
+### New Features
+- Drop iOS 15 support ([https://kb.omnissa.com/s/article/81271?lang=en_US&queryTerm=Applications Policy](https://kb.omnissa.com/s/article/81271?lang=en_US&queryTerm=Applications%20Policy))
+- Localisation updates (Dropping support for Russian language).
+- Fix for AppStore upload (https://github.com/euc-releases/iOS-WorkspaceONE-SDK/issues/10).
+- Sample application fix to support SwiftUI preview.
+- Software currency updates.
+
+
+### Minimum Requirements
+
+- iOS & iPadOS 16+  
+- Workspace ONE UEM Console 2306 +
+- XCode 16+
+
+
 ## Workspace ONE SDK 24.11 for iOS - Dec 2024
 
 ### New Features
