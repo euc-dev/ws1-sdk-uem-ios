@@ -6,11 +6,25 @@ hide:
   #- toc
 ---
 
-Updated on 12/13/2024
+Updated on 04/22/2025
 
 ## What's in the Release Notes
 
 Workspace ONE SDK for iOS Release Notes describe the new features and enhancements in each release. This page contains a summary of the new capabilities, issues that have been resolved, and known issues that have been reported in each release.  The Workspace ONE SDK for iOS is a set of tools that incorporates Workspace ONE UEM functionality into custom-built, iOS applications.
+
+## Workspace ONE SDK 25.04 for iOS - Apr 2025
+
+### New Features
+- Integration of OpenSSL 3.4.0 into the SDK with improved security and enhanced FIPS support.
+- Obfuscate screenshots and screen recordings for privacy and organization compliance.
+- Bug fixes and Stability improvements.
+
+### Minimum Requirements
+
+- iOS & iPadOS 16+  
+- Workspace ONE UEM Console 2306 +
+- XCode 16+
+
 
 ## Workspace ONE SDK 25.02 for iOS - Feb 2024
 
