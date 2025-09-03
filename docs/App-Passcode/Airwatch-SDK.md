@@ -11,14 +11,14 @@ hide:
 The steps in this tutorial are done with the assumption that you have gone through the steps in [Getting Started](../getting-started.md) tutorial as well as the SDK Setup section.
 
 !!!Important
-    You will need to download the SDK binary separately via [resources.workspaceone.com](https://resources.workspaceone.com). Please contact your AirWatch representative or support to gain access.
+    You will need to include the SDK as a Swift package and it is available in [Workspace ONE software development kit (SDK) for iOS repository](https://github.com/euc-releases/iOS-WorkspaceONE-SDK/releases).
 
 ## Requirements
 
-- iOS 7+
+- iOS 16+
 - Xcode
-- iOS Test Device
-- AirWatch SDK from AirWatch Resource Portal
+- iOS Device
+- AirWatch SDK via swift package manager
 
 ## Tutorial
 
@@ -32,7 +32,7 @@ Log into the AirWatch Console and identify if the SDK profile you assigned to yo
 
 1. If the profile assigned is the default profile, then the policy settings can be edited by navigating to Apps & Books > All Apps & Books Settings > Apps > Settings And Policies > Security Policies.
 2. Set Authentication Type to Passcode and configure an appropriate timeout, max number of failed attempts, and passcode complexity.
-3. Once you are done, click save to enforcing the new policy.
+3. Once you are done, click save to enforce the new policy.
 
 ### Using an Ad-hoc Custom Profile
 

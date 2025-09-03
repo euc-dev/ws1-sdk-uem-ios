@@ -11,14 +11,14 @@ hide:
 The steps in this tutorial are done with the assumption that you have gone through the steps in [Getting Started](../getting-started.md) tutorial as well as the SDK Setup section.
 
 !!!Important
-    You will need to download the SDK binary separately via [resources.resources.com](resources.resources.com). Please contact your AirWatch representative or support to gain access.
+    You will need to include the SDK as a Swift package and it is available in [Workspace ONE software development kit (SDK) for iOS repository](https://github.com/euc-releases/iOS-WorkspaceONE-SDK/releases).
 
 ## Requirements
 
-- iOS 7+
+- iOS 16+
 - Xcode
-- iOS Test Device
-- AirWatch SDK from AirWatch Resource Portal
+- iOS Device
+- AirWatch SDK via swift package manager
 
 ## Tutorial
 
