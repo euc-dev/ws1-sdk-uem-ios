@@ -6,11 +6,25 @@ hide:
   #- toc
 ---
 
-Updated on 10/04/2026
+Updated on 07/07/2026
 
 ## What's in the Release Notes
 
 Workspace ONE SDK for iOS Release Notes describe the new features and enhancements in each release. This page contains a summary of the new capabilities, issues that have been resolved, and known issues that have been reported in each release.  The Workspace ONE SDK for iOS is a set of tools that incorporates Workspace ONE UEM functionality into custom-built, iOS applications.
+
+## Workspace ONE SDK 26.06.0 for iOS - Jul 2026
+
+### New Features
+- Upgraded OpenSSL main to 3.5.7 LTS and FIPS to 3.1.2 LTS for security compliance.
+- Configurable option for admins to add watermarks seamlessly to designated views with WS1 SDK API.
+- Dropped Support for iOS 16 
+- Support ability to retrieve seeded email address from the UEM endpoint for identity resolution
+
+### Minimum Requirements
+
+- iOS & iPadOS 17+  
+- Workspace ONE UEM Console 2410 +
+- XCode 26.1.1+
 
 ## Workspace ONE SDK 26.03.0 for iOS - Apr 2026
 
